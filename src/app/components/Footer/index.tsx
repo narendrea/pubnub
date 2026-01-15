@@ -62,10 +62,9 @@ const Footer = () => {
       <footer className="bg-[#001143] text-gray-300 rounded-t-[32px] sm:rounded-t-[60px]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
           {/* Footer Columns */}
-          <div className="grid grid-cols-1 text-center sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 justify-items-center lg:justify-items-start">
-            
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
             {/* PLATFORM */}
-            <div className="flex flex-col items-center lg:items-start text-center lg:text-left">
+            <div>
               <h3 className="text-white font-bold text-base mb-4">PUBNUB PLATFORM</h3>
               <ul className="space-y-2">
                 {footerData.platform.map((item, index) => (
@@ -82,7 +81,7 @@ const Footer = () => {
             </div>
 
             {/* USE CASE */}
-            <div className="flex flex-col items-center lg:items-start text-center lg:text-left">
+            <div>
               <h3 className="text-white font-bold text-base mb-4">USE CASE</h3>
               <ul className="space-y-2">
                 {footerData.useCases.map((item, index) => (
@@ -99,7 +98,7 @@ const Footer = () => {
             </div>
 
             {/* INDUSTRY */}
-            <div className="flex flex-col items-center lg:items-start text-center lg:text-left">
+            <div>
               <h3 className="text-white font-bold text-base mb-4">INDUSTRY</h3>
               <ul className="space-y-2">
                 {footerData.industries.map((item, index) => (
@@ -116,7 +115,7 @@ const Footer = () => {
             </div>
 
             {/* RESOURCES */}
-            <div className="flex flex-col items-center lg:items-start text-center lg:text-left">
+            <div>
               <h3 className="text-white font-bold text-base mb-4">RESOURCES</h3>
               <ul className="space-y-2">
                 {footerData.resources.map((item, index) => (
@@ -133,7 +132,7 @@ const Footer = () => {
             </div>
 
             {/* ABOUT */}
-            <div className="flex flex-col items-center lg:items-start text-center lg:text-left">
+            <div>
               <h3 className="text-white font-bold text-base mb-4">ABOUT</h3>
               <ul className="space-y-2">
                 {footerData.about.map((item, index) => (
@@ -154,14 +153,15 @@ const Footer = () => {
           <div className="border-t border-gray-800 my-8"></div>
 
           {/* Copyright + Social */}
-          <div className="flex flex-col md:flex-row justify-center md:justify-between items-center gap-6 md:gap-10 text-center md:text-left">
-            <div className="text-gray-400 text-sm max-w-md">
+          <div className="flex flex-col sm:flex-col md:flex-row justify-between items-center gap-6 md:gap-10">
+            <div className="text-gray-400 text-sm text-center md:text-left">
               © 2010 - 2026 PubNub Inc. All Rights Reserved. PUBNUB and the PUBNUB logo are
               trademarks or registered trademarks of PubNub Inc. in the U.S. and other countries.
             </div>
 
             {/* Social Icons */}
-            <div className="flex flex-wrap justify-center md:justify-start gap-3 sm:gap-4 mt-4 md:mt-0">
+            <div className="flex flex-wrap justify-center md:justify-start gap-3 sm:gap-4">
+              {/* Facebook */}
               <a
                 href="#"
                 className="w-10 h-10 flex items-center justify-center bg-white rounded-full text-[#1877F2] hover:scale-110 transition-transform"
@@ -169,6 +169,7 @@ const Footer = () => {
                 <Icon icon="fa7-brands:facebook" width="24" height="24" />
               </a>
 
+              {/* X (Twitter) */}
               <a
                 href="#"
                 className="w-10 h-10 flex items-center justify-center bg-white rounded-full text-[#1DA1F2] hover:scale-110 transition-transform"
@@ -176,6 +177,7 @@ const Footer = () => {
                 <Icon icon="fa7-brands:x-twitter" width="24" height="24" />
               </a>
 
+              {/* Instagram */}
               <a
                 href="#"
                 className="w-10 h-10 flex items-center justify-center bg-white rounded-full text-[#E1306C] hover:scale-110 transition-transform"
@@ -183,6 +185,7 @@ const Footer = () => {
                 <Icon icon="fa7-brands:instagram" width="24" height="24" />
               </a>
 
+              {/* LinkedIn */}
               <a
                 href="#"
                 className="w-10 h-10 flex items-center justify-center bg-white rounded-full text-[#0A66C2] hover:scale-110 transition-transform"
@@ -190,6 +193,7 @@ const Footer = () => {
                 <Icon icon="fa7-brands:linkedin" width="24" height="24" />
               </a>
 
+              {/* YouTube */}
               <a
                 href="#"
                 className="w-10 h-10 flex items-center justify-center bg-white rounded-full text-[#FF0000] hover:scale-110 transition-transform"
