@@ -8,13 +8,13 @@ import "swiper/css";
 
 const CompanyLogoSlider = () => {
   const logos = [
-    { name: "Swiggy", src: "/assets/slider-img/swiggy.svg" },
-    { name: "Adobe", src: "/assets/slider-img/adobe.svg" },
-    { name: "Unity", src: "/assets/slider-img/unity.svg" },
-    { name: "LiveLike", src: "/assets/slider-img/livelike.svg" },
-    { name: "Gameloft", src: "/assets/slider-img/gameloft.svg" },
-    { name: "Logitech", src: "/assets/slider-img/logitech.svg" },
-    { name: "Beamable", src: "/assets/slider-img/beamable.svg" },
+    { name: "Swiggy", src: "/assets/slider-img/Swiggy.svg" },
+    { name: "Adobe", src: "/assets/slider-img/Adobe.svg" },
+    { name: "Unity", src: "/assets/slider-img/Unity.svg" },
+    { name: "LiveLike", src: "/assets/slider-img/LiveLike.svg" },
+    { name: "Gameloft", src: "/assets/slider-img/Gameloft.svg" },
+    { name: "Logitech", src: "/assets/slider-img/Logitech.svg" },
+    { name: "Beamable", src: "/assets/slider-img/Beamable.svg" },
     { name: "DAZN", src: "/assets/slider-img/DAZN Logo.svg" },
     { name: "FanHub", src: "/assets/slider-img/Fan Hub.svg" },
     { name: "Life.Church", src: "/assets/slider-img/Life.Church.svg" },
